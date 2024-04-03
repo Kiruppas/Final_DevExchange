@@ -1,0 +1,50 @@
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+"./src/**/*.{js,jsx,ts,tsx}"
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+npm install react-router-dom
+
+npm install react-icons
+
+npm i express nodemon mongodb mongoose axios env
+
+
+FIREBASE :
+
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBoNpqSYkUu6glYdFPgdrDst3TjZ-uA22U",
+  authDomain: "educare-bda36.firebaseapp.com",
+  projectId: "educare-bda36",
+  storageBucket: "educare-bda36.appspot.com",
+  messagingSenderId: "943055607738",
+  appId: "1:943055607738:web:53fc6b912f5caef4cfaf83",
+  measurementId: "G-2XM7ZB958W"
+};
+
+firebase.initializeApp(firebaseConfig);
+
+export const auth = firebase.auth();
+export default firebase;
+
+
+
+
+
+
+MONGODB :
+
+kiruppas
+vNWlHPinUFUmS6z9
+
+
+mongodb+srv://kiruppas:vNWlHPinUFUmS6z9@cluster0.cnw2syv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
