@@ -54,7 +54,7 @@ const AskQuestionPage = () => {
               type="submit"
               className="bg-gradient-to-l from-[rgb(24,204,216)] to-[rgb(239,104,8)] hover:from-[rgba(21,112,209,0.82)] hover:to-[rgba(21,112,209,0.82)]  text-white font-semibold px-4 rounded-md ">
               My Questions
-          </button> */}
+          </button> Just for now it is not used */}
           </div>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
